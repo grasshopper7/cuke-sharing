@@ -10,8 +10,7 @@ import lombok.Data;
 @Component
 @Scope(SCOPE_CUCUMBER_GLUE)
 public class FullName {
-
-	private String firstName;
 	
+	private String firstName;
 	private String lastName;
 }
